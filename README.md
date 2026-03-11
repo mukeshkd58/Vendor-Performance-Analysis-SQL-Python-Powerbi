@@ -58,16 +58,19 @@ vendor-performance-analysis/
 ├── requirements.txt
 ├── Vendor Performance Report.pdf
 
-├── notebooks/ # Jupyter notebooks
-│ ├── exploratory_data_analysis.ipynb
-│ └── vendor_performance_analysis.ipynb
+├── images/                      # Dashboard images
+│   └── Dashboard.png
 
-├── scripts/ # Python scripts for ingestion and processing
-│ ├── ingestion_db.py
-│ └── get_vendor_summary.py
+├── notebooks/                   # Jupyter notebooks
+│   ├── exploratory_data_analysis.ipynb
+│   └── vendor_performance_analysis.ipynb
 
-├── dashboard/ # Power BI dashboard file
-│ └── vendor_performance_dashboard.pbix
+├── scripts/                     # Python scripts for ingestion and processing
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
+
+├── dashboard/                   # Power BI dashboard file
+│   └── vendor_performance_dashboard.pbix
 ```
 
 ---
